@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+   background-color: rgb(43, 3, 93);
+   color: aliceblue;
+}
+.intro{
+    background: #3e0bab;
+    text-align: center;
+    color: rgb(160, 152, 140);
+}
+.parent{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+.Card{
+    padding: 0;
+    width: 220px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    background:  rgb(3, 3, 43);
+    transition: box-shadow 0.3s ease;
+}
+.Card:hover{
+    box-shadow: 0 10px 25px rgba(224, 215, 215, 0.5);
+    transform: scale(1.05);
+}
+.Card .upper {
+    background: rgb(158, 94, 21);
+    width: 15%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid yellowgreen;
+    border-radius: 15px;
+    display:block;
+    text-align: left;
+    color: black;
+}
+.Card .top img{
+    padding: 5px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: solid 1px pink;
+    border-radius: 50%;
+}
+.Card .mid{
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.Card .mid .para{
+    padding: 5px;
+    margin: 2px;
+}
+.Card .mid button{
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid aqua;
+    background: rgb(13, 3, 59);
+    color: rgb(38, 140, 140);
+    transition: 0.3s;
+}
+.Card .mid button:hover{
+    background: rgb(71, 82, 88);
+}
+.Card .buttom > span{
+  display:block;
+  text-align:left;   /* SKILL left side */
+  font-weight:bold;
+  margin-bottom:6px;
+ 
+}
+.Card .buttom .skill{
+     display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+.Card .buttom .skill> span{
+    font-size: 13px;
+    border: 0.1px solid rgb(99, 96, 96);
+    border-radius: 5px;
+    margin: 2px;
+}
+.Card .buttom{
+   background: rgb(3, 3, 53);
+   padding: 5px;
+   margin: 0;
+   border-radius: 15px;
+}
