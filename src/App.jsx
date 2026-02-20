@@ -11,7 +11,7 @@ const App = () => {
     skills: ["Web Dev", "HTML", "CSS", "JavaScript"]
   },
   {
-    profileImage: "https://randomuser.me/api/portraits/women/2.jpg",
+    profileImage: "https://www.newmynamepix.com/upload/post/sample/1589515256_New_Beautiful_Girl_Pictures_Profile_With_Name_Images.jpg",
     name: "Sophia Carter",
     country: "USA",
     info: "Full-stack developer passionate about scalable apps.",
